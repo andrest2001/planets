@@ -1,0 +1,350 @@
+    1  mkdir GIT
+    2  pwd
+    3  git init
+    4  ls-lsia
+    5  ls -lsia
+    6  echo "Primer archivo" > primerarchivo.txt
+    7  pwd
+    8  cd GIT
+    9  pwd
+   10  ls -la
+   11  echo "Contribuidores: ">contributing.txt
+   12  git commit -m "Subido el contributing.md"
+   13  git add.
+   14  git status
+   15  git add .
+   16  git status
+   17  git add .
+   18  git commit
+   19  ./git
+   20  git commit
+   21  git add
+   22  mkdir proyecto_WEB
+   23  cd proyecto_WEB
+   24  ls
+   25  mkdir javascript css
+   26  ls
+   27  git st
+   28  git status
+   29  touch index.html
+   30  git add .
+   31  git commit -m "Inicializamos el proyecto"
+   32  git init
+   33  mkdir javascript css
+   34  git status
+   35  git commit -m "Inicializamos el proyecto"
+   36  git add.
+   37  git add .
+   38  git commit -m "Inicializamos el proyecto"
+   39  git log --oneline
+   40  git branch
+   41  git status
+   42  git add .
+   43  git commit -m "Añadido index.html"
+   44  git st
+   45  git status
+   46  touch css/styles.css
+   47  nano styles.css
+   48  nano styles.css
+   49  git status
+   50  nano javascript/script.js
+   51  git status
+   52  git add .
+   53  git commit -m "Proyecto preparado para empezar a ramificar"
+   54  git branch javascript
+   55  git branch
+   56  git branch css
+   57  git branch
+   58  git checkout javascript
+   59  git branch
+   60  git log --oneline
+   61  git checkout css
+   62  gitk
+   63  git checkout javascript
+   64  git init
+   65  git commit -m 'Trabajo para el miercoles'
+   66  git add *c
+   67  rm -f .git/index.lock
+   68  git commit -m 'Trabajo para el miercoles'
+   69  git add
+   70  git add TRABAJO
+   71  git init
+   72  git add *.c
+   73  git commit -m 'Trabajo'
+   74  git clone https://github.com/libgit2/libgit2
+   75  git status
+   76  git init
+   77  git add *.c
+   78  git add LICENSE
+   79  git commit -m 'TRABAJO'
+   80  git add
+   81  git add.
+   82  git add. 
+   83  git commit
+   84  git status
+   85  git config user.name
+   86  git help config
+   87  gitinit
+   88  git init
+   89  git config user.name
+   90  git help config
+   91  cd C:\Users\andre\GIT
+   92  cd Desktop
+   93  cd PROYECTO
+   94  cd PROYECTO/
+   95  ls
+   96  ls
+   97  git init
+   98  git status
+   99  git add app.js
+  100  git status
+  101  git add index.tx
+  102  git add index.txt
+  103  git status
+  104  git commit 
+  105  git status
+  106  git init
+  107  git status
+  108  git ls
+  109  pwd
+  110  cd Desktop
+  111  cd PROYECTO
+  112  gits status
+  113  git log
+  114  git commit -m 'proyecto'
+  115  git status
+  116  git add
+  117  git status
+  118  git status
+  119  git checkou -- index.txt
+  120  git checkout -- index.txt
+  121  git status
+  122  git status
+  123  git diff index.txt
+  124  git add index.txt
+  125  git status
+  126  git commit
+  127  git log
+  128  git status
+  129  git add test/
+  130  git status
+  131  git clone https://github.com/libgit2/libgit2
+  132  git status
+  133  git add libgit2/
+  134  git status
+  135  cat .gitignore
+  136  *.[oa]
+  137  cat .gitignore
+  138  git status
+  139  git diff
+  140  git diff -cached
+  141  git commit -m 'Actualizacion hecha'
+  142  git status
+  143  git status
+  144  git add test/borrame.txt
+  145  git status
+  146  rm test/borrame.txt
+  147  git status
+  148  git rm test/borrame.txt
+  149  git status
+  150  git remote
+  151  git clone https://github.com/schacon/ticgit
+  152  cd ticgit
+  153  git remote
+  154  git remote -v
+  155  git remote
+  156  git remote add pb https://github.com/paulboone/ticgit
+  157  git remote -v
+  158  git fetch pb
+  159  git fetch [remote-name]
+  160  git push origin master
+  161  git remote show origin
+  162  git remote rename pb paul
+  163  git remote
+  164  git remote rm paul
+  165  git remote
+  166  git log--oneline --decorate
+  167  git log --oneline --decorate
+  168  git checkout testing
+  169  git log --oneline --decorate
+  170  git checkout testing
+  171  git short log --all
+  172  git shortlog --all
+  173  sudo su
+  174  sudo su
+  175  sudo root
+  176  history
+  177  git log
+  178  git branch
+  179  git --pretty=oneline
+  180  git log --pretty=oneline
+  181  git remote -v
+  182  ls
+  183  cd claseprueba/
+  184  git remote add origin https://github.com/shacon/simplegit-progit
+  185  git status
+  186  cat README
+  187  cd -
+  188  ls -la
+  189  cd
+  190  ssh-keygen
+  191  ls .ssh/
+  192  cat ssh/id_rsa.pub
+  193  ssh/id_rsa.pub
+  194  cat ssh/id_rsa.pub
+  195  cat .ssh/id_rsa.pub
+  196  ssh -T git@github.com
+  197  git remote -v
+  198  git remote add origin https
+  199  git remote add origin https://github.com/andrest2001/primerproyecto.git
+  200  git branch -M main
+  201  git push -u origin main
+  202  git remote -v
+  203  git bash
+  204  git remote add origin https://github.com/andrest2001/primerproyecto.git
+  205  git rm remote
+  206  git rm origin
+  207  git remote rm origin
+  208  rit rm -v
+  209  git remote -v
+  210  git remote add origin https://github.com/andrest2001/primerproyecto.git
+  211  git remote -v
+  212  git branch -M main
+  213  git push -u origin main
+  214  git remote rm origin
+  215  git remote add origin git@github.com:andrest2001/primerproyecto.git
+  216  git remote -v
+  217  git branch -M main
+  218  git push -u origin main
+  219  git init
+  220  git init nuevo_directorio
+  221  ls
+  222  ls nuevo_directorio
+  223  ls --nuevo_directorio
+  224  ls --
+  225  mkdir planets
+  226  ls
+  227  ls planets
+  228  cd planets
+  229  ls
+  230  ls -a
+  231  mkdir planets
+  232  cd planets
+  233  git init
+  234  ls
+  235  ls -a
+  236  git status
+  237   mkdir moons
+  238  cd moons
+  239  git init
+  240  git status
+  241  pwd
+  242  cd planets
+  243  cd moons
+  244  cd ..
+  245  cd moons
+  246  rm -rf .git
+  247  cd ..
+  248  pwd
+  249  nano mars.txt
+  250  ls
+  251  cat mars.txt
+  252  git status
+  253  git add.txt
+  254  git add.
+  255  git add mars.txt
+  256  git status
+  257  git commit -m"Start notes on Mars as a base"
+  258  git status
+  259  git log
+  260  ls
+  261  nao mars.txt
+  262  nano mars.txt
+  263  git status
+  264  cat mars.txt
+  265  git diff
+  266  git commit -m "He hecho cambios"
+  267  git status
+  268  git add mars.txt
+  269  git status
+  270  nano mars.txt
+  271  git diff
+  272  git add mars.txt
+  273  git diff
+  274  git diff --staged
+  275  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  276  git status
+  277  git log
+  278  git log -1
+  279  git log --oneline
+  280  git log --online --graph --all --decorate
+  281  git log --oneline --graph --all --decorate
+  282  mkdir directory
+  283  git status
+  284  git add directory
+  285  git status
+  286  git add 1
+  287  nano mars.txt
+  288  cat mars.txt
+  289  nano venus.txt
+  290  cat venus.txt
+  291  git add mars.txt venus.txt
+  292  git add mars.txt
+  293  git add venus.txt
+  294  git status
+  295  git commit -m "Write plans to start a base on Venus"
+  296  git log --format=full
+  297  git commit --author="Vlad Dracula <vlad@tran.sylvan.ia>"
+  298  git add me.txt
+  299  nano me.txt
+  300  git add me.txt
+  301  git commit -m "Updated Vlad's bio." --author="Frank N. Stein <franky@monster.com>"
+  302  git status
+  303  nano mars.txt
+  304  git diff HEAD mars.txt
+  305  git diff HEAD~1 mars.txt
+  306  git diff HEAD~2 mars.txt
+  307  git show HEAD~2 mars.txt
+  308  git log --oneline
+  309  git diff fef2db3
+  310  git diff fef2db3 mars.txt
+  311  nano mars.txt
+  312  git status
+  313  git checkout HEAD mars.txt
+  314  cat mars.txt
+  315  git checkout fef2db3 mars.txt
+  316  cat mars.txt
+  317  git status
+  318  git checkout -f master mars.txt
+  319  git checkout fef2db3
+  320  git status
+  321  cd planets
+  322  cd planets
+  323  git checkout HEAD
+  324  git checkout -f master mars.txt
+  325  git checkout -f
+  326  git log --oneline
+  327  git checkout master
+  328  git log mars.txt
+  329  git log --patch mars.txt
+  330  git log --patch HEAD~3 *.txt
+  331  mkdir results
+  332  touch a.dat b.dat results/a.out results/b.out
+  333  git status
+  334  nano .gitignore
+  335  cat .gitignore
+  336  git status
+  337  git add .gitignore
+  338  git -m "Commit de gitignore"
+  339  git commit -m "Commit de gitignore"
+  340  git status
+  341  git add a.dat
+  342  git status --ignored
+  343  git remote add orgin
+  344  git remote add origin git@github.com:andrest2001/planets.git
+  345  git remote -v
+  346  git push -u origin main
+  347  git branch -M main
+  348  git push -u origin maon
+  349  git push -u origin main
+  350  history>history.txt
